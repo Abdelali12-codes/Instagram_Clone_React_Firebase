@@ -1,7 +1,0 @@
-echo "# Instagram_Clone_React_Firebase" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Abdelali12-codes/Instagram_Clone_React_Firebase.git
-git push -u origin main
