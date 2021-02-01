@@ -1,0 +1,47 @@
+.title{
+  position: relative;
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: red; */
+}
+.avatar__box{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background: blue; */
+}
+.avatar__box__circle{
+    width: 126px;
+    height: 126px;
+    border: 3px solid rgb(196, 183, 183);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    overflow: hidden;
+    ;
+}
+.avatar__images{
+     width: 120px;
+     height: 120px;
+     border-radius: 100%;
+     overflow: hidden;
+     box-shadow: 2px 2px 3px rgb(196, 183, 183) ,
+    -2px -2px 3px rgb(196, 183, 183) 
+}
+.highlight__input{
+    outline: none;
+    border: none;
+    height: 40px;
+    text-align: center;
+    box-shadow: inset 2px 2px 3px rgb(247, 240, 240) ,
+    inset -2px -2px 3px rgb(247, 240, 240);
+}
+.highlight__input::placeholder{
+    text-align: center;
+}

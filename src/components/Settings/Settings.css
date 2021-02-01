@@ -1,0 +1,43 @@
+.settings__component{
+    position: relative;
+    width: 700px;
+    height: 500px;
+    /* margin: 11vh auto 0 auto; */
+    display: flex;
+    flex-direction: row;
+    /* background: red; */
+}
+.left__component{
+  flex: 0.4;
+  /* background: blue; */ 
+  border-right: 2px solid rgb(160, 155, 155);
+}
+.right__component{
+   flex: 0.6;
+  
+}
+.search__bar{
+   width: 100%;
+   height: 12vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* background: red; */
+   border-bottom: 2px solid rgb(168, 160, 160);
+}
+.search__bar > div{
+  background: white;
+  height: 6vh;
+  overflow: hidden;
+  border-radius: 23px;
+  display: flex;
+  align-items: center;
+}
+.search__bar > div:hover{
+  border: 1px solid rgb(173, 167, 167);
+}
+.left__input{
+  outline: none;
+  border: none;
+  height: 100%;
+}

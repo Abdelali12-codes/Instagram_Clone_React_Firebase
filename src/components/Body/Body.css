@@ -1,0 +1,24 @@
+.body__posts{
+    width: 90vw;
+   padding: 10px 0;
+   
+    margin :auto  ;
+  
+}
+.body__cards{
+    width: 45vw;
+    height:100%;
+    margin :auto  ;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 4fr;
+    grid-gap: 10px;
+    place-items: center;
+   
+}
+.body__card{
+    background : purple ;
+    width: 500px ;
+    height:500px ;
+    
+}

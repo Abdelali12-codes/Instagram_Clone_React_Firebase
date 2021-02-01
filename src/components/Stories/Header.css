@@ -1,0 +1,106 @@
+.story__wrapper{
+  margin-top: 8vh;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden ;
+  width: 100%;
+  /* box-sizing: border-box; */
+  padding: 10px 0 30px 10px;
+  
+}
+.story__wrapper::-webkit-scrollbar{
+    display: none;
+}
+.circle{
+    display: flex;
+}
+.circle__inner{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 4px;
+    margin-left: 4px;
+    /* padding: 5px; */
+    border: 3px solid #cd486b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+}
+.circle__inner__inner{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    
+    overflow: hidden;
+}
+.story__wrapper .circle__img{
+    height: 100%;
+    object-fit: contain;
+}
+.personnal__story{
+    width: 80px;
+    height: 80px;
+  
+    border-radius: 100%;
+    overflow: hidden;
+    margin-right: 5px;
+    /* border:3px solid #cd486b; */
+}
+
+.avatar-edi{
+    position: relative;
+    right: 0px;
+    z-index: 5;
+    bottom: 0px;
+}
+.avatar-edit input{
+    display: none;
+}
+.avatar-edi label{
+    position: absolute;
+    right: -2px;
+    bottom: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    margin-bottom: 0;
+    border-radius: 100%;
+    background: #ffffff;
+    border: 9px solid rgb(255, 255, 255);
+    box-shadow: 0px 2px 4px 0px rgba(0 ,0 , 0 ,0.12);
+    cursor: pointer;
+    font-weight: normal;
+    transition: all .2s ease-in-out;
+}
+.avatar-edi label:hover{
+    background: #f1f1f1;
+    background-color: #d6d6d6;
+
+}
+
+.avatar-previe{
+    width:80px;
+    height: 80px;
+    position: relative;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 6 solid #cd486b;
+    background: white;
+    box-shadow: 0px 2px 4px 0px rgba(0 ,0 , 0 ,0.1);
+
+}
+.avatar-previe-border{
+    /* border: 2px solid #cd486b; */
+    width: 80px;
+    height: 80px;
+   
+    /* box-sizing: border-box; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}

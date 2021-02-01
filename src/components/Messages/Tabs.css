@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+.header__insta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+.item__insta{
+    font-family: 'Staatliches' , sans-serif;
+    font-size: 24px;
+}
+.send__message{
+    border: 2px solid rgba(0 ,0 ,0 ,0.5);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon__message {
+     transform: rotate(-15deg) scale(1.5) translateX(4px); 
+}
+.btn__message{
+     border: none;
+     outline: none;
+     padding: 5px 3px;
+     border-radius: 4px;
+     background-color: rgba(0 ,0 ,255 , 0.8);
+}
+.classe__btn{
+
+    text-align: center;
+}
+.wrapper{
+    position : relative ;
+    width :900px ;
+    height : 450px ;
+    margin: 20vh auto;
+    border: 2px solid grey;
+}
+.childern{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.child__left{
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* border-right: 2px solid grey; */
+    flex: 0.5;
+}
+.child__left::-webkit-scrollbar{
+    transition: all .5s;
+    width: 5px;
+    height: 1px;
+    z-index: 10;
+}
+.child__left::-webkit-scrollbar-track{
+    background: transparent;
+}
+.child__left::-webkit-scrollbar-thumb{
+    background: #b3ada7;
+}
+.child__right{
+     position: relative;
+     flex: 0.5;
+     display : flex ;
+     flex-direction :column ;
+     justify-content : center ;
+     align-items : center ;
+     width: 100%;  
+     /* border: 2px solid grey;    */
+}
+.child__right__message{
+    position: relative;
+    flex: 0.5;
+
+}
+@media(max-width: 700px){
+    .childern{
+        flex-direction: column;
+    }
+    .wrapper{
+        width: 500px;
+        border: none;
+    }
+}

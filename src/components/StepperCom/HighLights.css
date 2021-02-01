@@ -1,0 +1,43 @@
+.global__stepper__container{
+       position: relative;
+       width: 600px;
+       height: 500px;
+       /* background: green; */
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+}
+.first__section1{
+   /* background: red; */
+   height: 400px;
+   width: 100%;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-gap: 2px 5px;
+   overflow-x: hidden;
+   overflow-y: auto;
+
+}
+.first__section1::-webkit-scrollbar{
+    transition: all .5s;
+    width: 5px;
+    height: 1px;
+    border-radius: 30px;
+    z-index: 10;
+}
+.first__section1::-webkit-scrollbar-thumb{
+    background: #b3ada7;
+}
+.first__section1::-webkit-scrollbar-track{
+    background: transparent;
+    border-radius: 30px;
+}
+.second__section2{
+    /* background: blue; */
+    border-top: 2px solid rgb(175, 166, 166);
+    height: 11vh;
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 10px;
+    align-items: center;
+}

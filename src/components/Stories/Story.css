@@ -1,0 +1,122 @@
+/* .circle{
+    width: 60px ;
+    height : 60px ;
+    border-radius: 50%;
+    border: 3px solid #cd486b;
+    overflow: hidden;
+} */
+.svg{
+     fill:none;
+     stroke:#8a3ab9;
+     stroke-linecap: round;
+     stroke-width:3;
+     stroke-dasharray: 1;
+     
+     stroke-dashoffset: 0;
+     animation: stroke-draw 6s ease-out infinite alternate; 
+     /* // animation: stroke-draw 6s cubic-bezier(0.77, 0, 0.175, 1) infinite alternate;  */
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+ 
+@keyframes stroke-draw {
+   from{
+     stroke:#8a3ab9;
+     stroke-dasharray: 1;
+   }
+   to{
+     stroke:#cd486b;
+     transform:rotate(180deg);
+     stroke-dasharray: 8;
+   }
+ }
+
+.story__item__click{
+   width: 400px;
+   height: 500px;
+   display: flex;
+   flex-direction: column;
+  
+   overflow: hidden;
+}
+ 
+.story__indicator{
+    flex:0.3;
+   
+     padding: 0 5px 0 5px; 
+    /* padding-left: 4px;
+    padding-right: 6px; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 400px;
+   
+    /* height: 0vh; */
+}
+.story__item__click__photo{
+   flex: 0.7;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.story__item__click__photo > img{
+  height:400px;
+  object-fit: contain;
+}
+.story__info{
+   
+   width: 300px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.indicator__progress{
+ 
+ width: 100%;
+ border-radius: 30px;
+ overflow: hidden;
+ 
+}
+
+.progress-bar{
+  background-color: #1a1a1a;
+  height: 3px;
+  width: 100%;
+  border-radius:5px ;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+}
+
+.activedbar {
+  display: block;
+  height: 3px;
+  width: 0%;
+  background-color: #34c2e3;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+  position: relative;
+  animation: auto-progress 4s  linear;
+}
+@keyframes auto-progress {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+
+}
+
+.username{
+  cursor: pointer;
+}
+
+.story__user{
+  position: absolute;
+  top: 105% ;
+}
