@@ -1,26 +1,5 @@
-# the Instagram-clone app url :
-https://instagram-clone-84392.web.app/
-
-# Create Account :
-https://youtu.be/ku7GzV_bd5g
-
-# Follow , Unfollow User :
-https://youtu.be/syEN6rBg0dA
-
-# Add New Story On Your Profile:
-https://youtu.be/B32OFYF2ODw
-
-# Add New HighLights :
-https://youtu.be/OzIx3Z_jAu4
-
-# Video Call :
-https://youtu.be/eq2peMDomqQ
-
-# Block , Unblock Users :
-https://youtu.be/u5kbl1NGWV8
-
-# Notifications :
-https://youtu.be/_kSnrAPLwiY
+## Susbcribe to my youtube channel to receive my new projects tutorials
+https://www.youtube.com/channel/UCmJ3RnxnLnx-ZfnyE6A5jaA
 
 # Getting Started with Create React App
 
